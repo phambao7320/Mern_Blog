@@ -1,4 +1,4 @@
-export const apiUrl = process.env.NODE_ENV !== 'production' ? 'http://localhost:5000/post' : 'deloyURL'
+export const apiUrl = process.env.NODE_ENV !== 'production' ? 'https://shielded-river-80490.herokuapp.com/post' : 'https://shielded-river-80490.herokuapp.com/post'
 export const POSTS_LOADED_SUCCESS = 'POSTS_LOADED_SUCCESS'
 export const POSTS_LOADED_FAIL = 'POSTS_LOADED_FAIL'
 export const ADD_POST = 'ADD_POST'
