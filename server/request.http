@@ -1,0 +1,35 @@
+GET http://localhost:5000/post
+
+
+###
+
+POST http://localhost:5000/post
+Content-Type: application/json
+
+{
+    "title": "Node JS",
+    "desciption" : "Chi tiết về kiến thức Node-Js"
+}
+
+###
+
+POST http://localhost:5000/post
+Content-Type: application/json
+
+{
+    "title": "Angular JS",
+    "desciption" : "Chi tiết về kiến thức Angular-Js"
+}
+
+###
+PUT http://localhost:5000/post/62a80a4813f1c22c77a146c8
+Content-Type: application/json
+
+{
+    "title": "Vue JS",
+    "desciption" : "Chi tiết về kiến thức Vue-Js"
+}
+
+###
+DELETE  http://localhost:5000/post/62a97c8302e97c126a3ddaaa
+Content-Type: application/json
